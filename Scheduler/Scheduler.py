@@ -22,3 +22,12 @@ def get(post_id):
     # Send new data to database
 def update_db(message):
     print("Updating MongoDB...")
+
+
+# Template for Mongo DB database
+# {
+#     date: '01/08/2021',
+#     time: '18:00:00',
+#     moisture_value: '436',
+#     moisture_level: '85',
+# }
