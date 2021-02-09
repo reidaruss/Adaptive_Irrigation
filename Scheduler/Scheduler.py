@@ -10,7 +10,7 @@ from pymongo import MongoClient
 from bson.objectid import ObjectId
 
 # Global Variables
-connection_string = "mongodb+srv://readonly:readonly@[demodata.rgl39.mongodb.net/demo?retryWrites=true&w=majority](http://demodata.rgl39.mongodb.net/demo?retryWrites=true&w=majority)"
+connection_string = 'mongodb+srv://readonly:readonly@[demodata.rgl39.mongodb.net/demo?retryWrites=true&w=majority](http://demodata.rgl39.mongodb.net/demo?retryWrites=true&w=majority)'
 client = MongoClient(connection_string)
 
 
